@@ -1,4 +1,22 @@
 // v-20250513
+
+// Edit button translation
+function translateEditButtonOnce() {
+    const editButton = document.querySelector('.w-editor-bem-EditSiteButton');
+    if (editButton) {
+        editButton.textContent = "管理画面へ";
+        console.log("✅ Translated Edit Site button");
+    } else {
+        console.log("⏳ Waiting for Edit Site button...");
+        setTimeout(translateEditButtonOnce, 1000);
+    }
+}
+
+window.addEventListener("load", () => {
+    translateEditButtonOnce();
+});
+
+
 // Observe the join panel for dynamic content changes (e.g., when switching between login, join, reset views)
 function observeJoinPanel(callback) {
     const panelSelector = '.w-reset.w-editor-bem-EditorApp_Panel';
