@@ -1,4 +1,5 @@
 // v-20250513
+console.log("Loaded v-20250513");
 
 // Edit button translation
 function translateEditButtonOnce() {
