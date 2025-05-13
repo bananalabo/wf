@@ -96,6 +96,7 @@ function replaceEditorTranslations() {
         "Edit Alt Text": "代替テキスト編集",
         "Republish": "再公開",
         "Queue to publish": "公開待ちに追加",
+        "Unpublished Changes": "件の未公開変更箇所",
         "Unpublish": "非公開にする",
         "Schedule": "スケジュール",
         "Remove from queue": "公開待ちから削除",
